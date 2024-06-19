@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=LXGW+WenKai+Mono+TC&family=Noto+Sans+TC:wght@100..900&display=swap');
+/* custom_chatgpt.css */
+:root{
+--bs-light-rgb: 187, 136, 119;
+color: rgb(187, 136, 119);
+} 
+.navbar-brand{
+    font-weight: bold;
+}
+
+/* 頁尾樣式 */
+.footer {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+body {
+    background-color: #EEDDCC;
+}
+
+.footer .text-muted {
+    color: #777766;
+}
+.title {
+    font-size: 1.5rem;
+    color: #667788; /* 淺藍色 */
+}
+.content img {
+    margin-left: 20px; /* 圖文之間的間距 */
+}
+.content {
+    color: #000; /* 確保文字對比性 */
+}
+.img-fluid {
+    max-width: 100%;
+}
+.card-title {
+    font-size: 1.5rem;
+    color: #667788; /* 淺藍色 */
+}
+.card-body {
+    background-color: rgb(255, 248, 236);
+}

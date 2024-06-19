@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 設定IE相容性 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 網站作者/擁有者 -->
+    <meta name="author" content="紅字旅遊">
+    <!-- 網頁描述，簡單介紹網頁內容 -->
+    <meta name="description" content="北部, 中部, 南部, 東部, 左岸碼頭, 漁人碼頭, 集集火車站,  鹿港老街, 安平老街, 高雄愛河, 宜蘭蘇澳, 台東初鹿農場">
+    <!-- 網頁編輯器 -->
+    <meta name="generator" content="VisualStudioCode">
+    <!-- 關鍵字，google排除權重，其他搜尋引擎能可使用 -->
+    <meta name="keywords" content="北部景點, 中部景點, 南部景點, 東部景點, 八里左岸碼頭, 淡水老街, 碼頭, 淡水漁人碼頭, 南投集集火車站, 火車站, 鹿港老街, 老街, 台南安平老街, 高雄愛河, 宜蘭蘇澳, 台東初鹿農場">
+    <!-- favicom我的最愛(書籤)圖標 -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- google GA分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WT490CWEW8"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WT490CWEW8');
+    </script>
+    <title>紅字旅遊-景點介紹</title>
+</head>
+<!-- GA追蹤分析 -->
+<body>
+  <header>                                
+        <!--bg-dark背景色 body-tertary為深色字 如改 navbar-dark為淺色字 -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">紅字旅遊</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- 導覽列按鈕 -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <!-- 這串為無障礙網路使用nav-link active明眼人看用 aria-current="page" 視障人士使用 -->
+                    <a class="nav-link " href="index.html">首頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- active" aria-current="page目前標籤所在地會提示會亮 -->
+                    <a class="nav-link " href="about.html">關於品牌</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="viewpoint.html">景點介紹</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hotel.html">住宿資訊</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="safe.html">旅遊安全</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@rthzh.url.tw" target="_blank">留言發問</a>
+                  </li>
+                </ul>
+
+                <!-- 表單 PHP用 -->
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+  </header>
+  <main>
+      <!-- 輪播圖 -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <!-- 增加輪播圖時增加一個按鈕 -->
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- alt="台北101"為圖片無法顯示時出現 title="台北101"滑入圖片時小標籤 aria-label="台北101"無障礙用 -->
+            <img src="images/index/buildings-1846728_1920_dr.webp" class="d-block w-100" alt="台北101" title="台北101" aria-label="台北101">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/kaohsiung-4081259_1920_dr.webp" class="d-block w-100" alt="廟宇" title="廟宇" aria-label="廟宇">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/dragon-3329567_1920_dr.webp" class="d-block w-100" alt="龍屋脊" 
+            title="龍屋脊" aria-label="龍屋脊">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/city-7049028_1920_dr.webp" class="d-block w-100" alt="台北101大樓" title="台北101大樓" aria-label="台北101大樓">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- 內文 -->
+      <div class="container">
+        <h2 class="alert alert-success mt-5" role="alert">
+          北部景點介紹
+        </h2>
+        <div class="row">
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/mountain-5331488_1920.webp" class="card-img-top" alt="八里左岸碼頭" title="八里左岸碼頭" aria-label="八里左岸碼頭">
+              <div class="card-body">
+                <h4 class="card-title">八里左岸碼頭</h4>
+                <p class="card-text">
+                  淡水八里是台灣北部的兩個風情小鎮，充滿著濃厚的歷史文化和自然風光。淡水以其古老的街道、歷史悠久的建築和美麗的海景而聞名，遊客可以漫步老街品味傳統小吃，欣賞夕陽下的淡水漁人碼頭在淡水，或搭乘淡水渡輪，從淡水老街出發，沿著淡水河航行，欣賞兩岸的風光，包括淡水漁人碼頭、滬尾半島等景觀。</p>
+                <p class="card-text">
+                  左岸碼頭則以其海岸線風光和悠閒的海濱氛圍吸引遊客，可以欣賞海景、品嚐海鮮美食，還可以體驗漁民生活和參觀歷史悠久的觀光景點。 不論是淡水的古老街道還是八里的海濱風情，都值得遊客一遊。這兩個小鎮距離台北市區不遠，交通便利，是遠離喧囂的理想周末旅行目的地。</p>
+                </p>
+                <p class="text-end">
+                  <a href="https://newtaipei.travel/zh-tw/regional/sightseeing/18" target="_blank" class="btn btn-success" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">左岸碼頭</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/taiwan-1073956_1920.webp" class="card-img-top" alt="漁人碼頭" title="漁人碼頭" aria-label="漁人碼頭">
+              <div class="card-body">
+                <h4 class="card-title">淡水漁人碼頭</h4>
+                <p class="card-text">
+                  淡水漁人碼頭位於新北市淡水區，是淡水最具代表性的景點之一，也是許多遊客來淡水必訪的地方。漁人碼頭以其迷人的夕陽景色而聞名，每天傍晚時分，數以百計的遊客湧入此地，目睹夕陽西下的壯麗景象。在漁人碼頭上，可以眺望遠方的海面，欣賞夕陽映照在海面上的金色光芒，美不勝收。</p>
+                <p class="card-text">
+                  此外，漁人碼頭周邊還有許多其他的景點和活動，如情人橋、淡水老街、紅毛城等，遊客可以一一探訪，感受淡水的豐富文化和歷史底蘊。淡水漁人碼頭是一個充滿浪漫和魅力的地方，不僅可以欣賞美麗的夕陽景色，還可以品味美食，感受淡水的獨特風情。</p>
+                
+                <p class="text-end">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=7888" target="_blank" class="btn btn-success" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">淡水漁人碼頭</a></p>
+            </div>
+          </div>
+          </div>
+
+        </div>
+        <h2 class="alert alert-warning mt-5" role="alert">
+          中部景點介紹
+        </h2>
+        <div class="row">
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/steam-2654212_1920.webp" class="card-img-top" alt="南投集集火車站" title="南投集集" aria-label="南投集集火車站">
+              <div class="card-body">
+                <h4 class="card-title">南投集集火車站</h4>
+                <p class="card-text">
+                  南投集集火車站位於台灣南投縣，集集有著悠久的歷史和豐富的文化底蘊，遊客可以漫步在古老的街道上，欣賞保存完好的日式建築和傳統民居，感受到濃厚的古早味風情。集集火車站建於日治時期，保留了許多古老的建築和擺設，如懷舊的木造建築、古老的火車頭等，讓遊客仿佛穿越時空，感受到昔日的火車站風情。</p>
+                <p class="card-text">  
+                  火車站外的軌道已經改建成為自行車道，遊客可以租借自行車沿著鐵路走廊騎行，欣賞沿途的風景，感受大自然的美好。</p>
+                
+                <p class="text-end">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001114&id=C100_250" target="_blank" class="btn btn-warning" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">集集火車站</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/taiwan-2634733_1920.webp" class="card-img-top" alt="彰化鹿港老街" title="彰化鹿港老街" aria-label="彰化鹿港老街">
+              <div class="card-body">
+                <h4 class="card-title">彰化鹿港老街</h4>
+                <p class="card-text">
+                  彰化鹿港位於台灣彰化縣，是一個充滿著古老風情和文化底蘊的古鎮，      鹿港保留了許多古老的街道和建築，如鹿港老街、鹿港天后宮等，遊客可以漫步在這些古街巷弄中，感受到濃厚的古早味風情，欣賞到保存完好的古蹟建築。</p>
+                <p class="card-text">
+                  此外，鹿港還有許多著名的景點值得一遊，如鹿港龍山寺、鹿港龍山寺花燈等，讓遊客可以近距離了解鹿港的歷史文化和宗教信仰。</p>
+                <p class="card-text">
+                  鹿港也是一個美食之地，遊客可以品嚐到道地的客家美食和地方小吃，如麵線糊、蚵仔煎等，讓人回味無窮。彰化鹿港是一個結合了古老文化、歷史遺跡和美食文化的理想旅遊目的地，是探訪台灣古鎮風情的絕佳選擇。</p>
+                <p class="text-end">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001113&id=C100_441" target="_blank" class="btn btn-warning" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">鹿港老街</a></p>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <h2 class="alert alert-danger mt-5" role="alert">
+          南部景點介紹
+        </h2>      
+        <div class="row">
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/kaohsiung-4081256_1920.webp" class="card-img-top" alt="台南安平老街" title="台南安平老街" aria-label="台南安平老街">
+              <div class="card-body">
+                <h4 class="card-title">台南安平老街</h4>
+                <p class="card-text">
+                  台南安平位於台灣台南市，是一個充滿著歷史文化和美食魅力的地方，吸引著許多遊客前來探訪。安平擁有豐富的歷史遺跡和古蹟，如安平古堡、安平樹屋等，讓遊客可以近距離了解台灣的歷史和文化。</p>
+                <p class="card-text">
+                  此外，安平還有許多知名的景點值得一遊，如安平老街、安平觀夕平台等，遊客可以漫步在這些古老街道上，遊客可以品嚐到道地的台灣小吃和特色美食，如安平豆花、蝦餅等，讓人回味無窮。</p>
+                <p class="card-text">
+                  台南安平是一個結合了歷史文化、風光景色和美食文化的理想旅遊目的地，是探訪台灣南部風情的絕佳選擇。</p>
+                <p class="text-end">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=A12-00162" target="_blank" class="btn btn-danger" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">安平老街</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/yellow-4524681_1920.webp" class="card-img-top" alt="高雄愛河" title="高雄愛河" aria-label="高雄愛河">
+              <div class="card-body">
+                <h4 class="card-title">高雄愛河</h4>
+                <p class="card-text">
+                  高雄愛河是台灣高雄市的一個著名景點，是高雄市民及遊客喜愛的休閒勝地。 愛河沿岸有美麗的步道和公園，遊客可以沿著愛河散步或騎單車，欣賞河畔的風光和城市的景色，感受到悠閒的氛圍。</p>
+                  <p class="card-text">
+                  此外，愛河周邊還有許多知名的景點和美食店，如六合夜市、旗津等，遊客可以一邊欣賞風景，一邊品嚐道地的高雄美食。高雄愛河是一個結合了自然風光、文化藝術和美食饗宴的旅遊勝地，是來到高雄必訪的景點之一。</p>
+                <p class="text-end">
+                  <a href="https://khh.travel/zh-tw/attractions/detail/232" target="_blank" class="btn btn-danger" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">高雄愛河</a></p>
+            </div>
+          </div>
+          </div>
+        </div> 
+        <h2 class="alert alert-primary mt-5" role="alert">
+          東部景點介紹
+        </h2>      
+        <div class="row mb-5">
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/flowers-692433_1280.webp" class="card-img-top" alt="蘇澳波斯花" title="蘇澳波斯花" aria-label="蘇澳波斯花">
+              <div class="card-body">
+                <h4 class="card-title">宜蘭蘇澳</h4>
+                <p class="card-text">
+                  宜蘭蘇澳位於台灣東北部，是一個充滿著自然美景和豐富文化的地方，吸引著許多遊客前來探訪。蘇澳有著美麗的海岸線和壯麗的山川，遊客可以欣賞到壯麗的海景和迷人的山水風光，感受到大自然的美好。</p>
+                  <p class="card-text">
+                  此外，蘇澳還有許多知名的景點值得一遊，如蘇澳波斯花季、南方澳漁港等，這些景點都充滿著獨特的魅力，讓遊客可以近距離接觸自然，感受到大自然的神奇和美麗。宜蘭蘇澳是一個結合了自然景觀、人文歷史和美食文化的理想旅遊目的地，是探訪台灣東北部風情的絕佳選擇。</p>
+                
+                <p class="text-end">
+                  <a href="https://www.taiwan.net.tw/m1.aspx?sNo=0042291&uid=70" target="_blank" class="btn btn-primary" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">宜蘭蘇澳</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-2">
+            <div class="card">
+              <img src="images/viewpoint/cows-203460_1280.webp" class="card-img-top" alt="初鹿牧場" title="初鹿牧場" aria-label="初鹿牧場">
+              <div class="card-body">
+                <h4 class="card-title">台東初鹿牧場</h4>
+                <p class="card-text">
+                  台東初鹿農場位於台灣東部的台東縣，是一個充滿著自然風光和樂趣的農場景點，吸引著許多遊客前來探訪。除了欣賞風景外，初鹿農場還有許多有趣的活動和體驗，如餵食動物、草地野餐、草原賞鳥等，適合全家大小一同參與，增添旅行的樂趣。此外，初鹿農場還有設施完善的住宿和餐飲服務，遊客可以在這裡享受舒適的住宿和美食，度過愉快的假期。</p>
+                  <p class="card-text">
+                  台東初鹿農場是一個適合放鬆身心、享受自然的理想旅遊目的地，是來到台東必訪的景點之一。</p>
+                <p class="text-end">
+                  <a href="https://tour.taitung.gov.tw/zh-tw/attraction/details/285" target="_blank" class="btn btn-primary" role="button"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="即將離開本網站">台東初鹿牧場</a></p>
+            </div>
+          </div>
+          </div>
+        </div> 
+
+        <hr>
+
+      </div>
+      <footer class="container">
+          <p class="float-end"><!--<a href="#top" >回到首頁</a>-->
+            <a href="#top"><img class="phHomeBtn" src="images/index/top.webp" title="回網頁頂部" alt="回網頁頂部"></a></p>
+          <p>紅字旅遊&copy; 2024 <br>         
+              地址:彰化縣鹿港鎮<br>
+              連絡電話:09**-******</p>
+
+      </footer>
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
+</body>
+</html>

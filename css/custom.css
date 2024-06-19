@@ -1,0 +1,124 @@
+/* google fonts雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+
+ :root, /* ,表示符合條件時套用 */
+[data-bs-theme-light]{
+    --bs-dark-rgb: 0, 41, 77;
+    --bs-emphasis-color: rgb(0, 41, 77);
+}
+:root {
+    --color-dark-blue:#000077;
+    --font-weight-bold: bolder;
+    --max-font-size: 2rem;
+    
+}
+
+/* 雲端字體套用body標籤 */
+body{
+    font-family: "微軟正黑體", "Noto Sans TC", sans-serif;
+}
+
+
+ /* 選取器是標籤，影響整體 */
+h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(94, 74, 238);
+}
+/* 選取器是類別，影響個別，需手動套用 */
+.h2-custom-pink {
+    font-size: 3rem;
+    font-weight: 900; /*字體粗(100~900)*/
+    color: rgb(249, 8, 225);
+}
+
+.card-custom{
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(249, 60, 255);
+    border-radius: 5px;
+}
+
+
+footer a {
+    text-decoration: none;
+}
+.phHomeBtn {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.iconsTitle {
+    font-size: 2.2rem;
+    color: rgb(94, 74, 238);
+    vertical-align: bottom;
+}
+
+.list-no {
+    list-style-type: decimal-leading-zero;
+}
+.card-no-border{
+    border: none;
+}
+
+h4 {
+    font-weight: 900;
+}
+h5 {
+    font-weight: 900;
+}
+
+.span_1 {
+    font-weight: 1000;
+}
+.span_2 {
+    font-weight: 1000;
+    color: rgb(201, 76, 72);
+}
+
+.modal {
+    --bs-modal-width: 700px;
+}
+
+/* accordion */
+/* 微型網站使用
+.mainTitle{
+    font-size: 2rem;
+}
+.acc-but-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.accordion-body-h2 {
+    font-size: 1.3rem;
+    color: rgb(10, 3, 104);
+}
+.accordion-body-h3 {
+    font-size: 1.2rem;
+    color: rgb(45, 7, 150);
+    font-weight: 800;
+    font-style: italic;
+} */
+/* 大型網站使用(變數) */
+.mainTitle{
+    font-size: var(--max-font-size);
+
+}
+.acc-but-title {
+    font-size: calc(var(--max-font-size)*0.8);
+    font-weight: var(--font-weight-bold);
+}
+
+.accordion-body-h2 {
+    font-size: calc(var(--max-font-size)*0.7);
+    color: var(--color-dark-blue);
+}
+.accordion-body-h3 {
+    font-size: calc(var(--max-font-size)*0.6);
+    color: var(--color-dark-blue);
+    font-weight: var(--font-weight-bold);
+    font-style: italic;
+}
